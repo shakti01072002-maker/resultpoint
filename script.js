@@ -92,3 +92,18 @@ toggle.addEventListener("click", () => {
         toggle.innerHTML = "🌙";
     }
 });
+function searchSite(){
+
+let input=document.getElementById("searchInput").value.toLowerCase();
+
+if(input===""){
+
+alert("Please enter something to search.");
+
+return;
+
+}
+
+window.find(input);
+
+}
